@@ -24,3 +24,20 @@ for(var i = 1;i<=5;i++)
 console.log("The sum is : "+sum);
 console.log("The average is :" +sum/5);
 console.log("***************************************");
+//Usecase 5: Unit Conversion
+var inches = 42;
+const OneFt_inc = 12;
+const OneFt_meters = 0.3048;
+const OneSqrMeter_Acres = 0.000247105;
+console.log("42 inches in feets : "+inches/OneFt_inc);
+console.log("***Rectangular Plot of 60 ft x 40 ft in area***");
+var length = 60;
+var breath = 40;
+var area = length*breath;
+console.log("The area of the rectangular plot in feet is : "+area);
+var areaInMeters = area*OneFt_meters;
+console.log("The area of the rectangular plot in area is : "+areaInMeters);
+console.log("***Calculate area for 25 such plots***");
+var totalArea = areaInMeters*25;
+console.log("The area of 25 such plots in meters is : "+totalArea);
+console.log("The area of 25 such plots in acres is : "+(totalArea*OneSqrMeter_Acres).toFixed(2));
