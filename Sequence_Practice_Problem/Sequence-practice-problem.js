@@ -7,3 +7,9 @@ console.log("***************************************")
 var diceValue =Math.floor(Math.random()*6)+1;
 console.log("Random number between 1 and 6 for dice is :"+diceValue);
 console.log("***************************************");
+//Usecase 3 - Add two random dice numbers
+var diceValue2 = Math.floor(Math.random()*6)+1;
+console.log("Random second number between 1 and 6 for dice is :"+diceValue2);
+var result = diceValue+diceValue2;
+console.log("The added dice numbers is :"+result);
+console.log("***************************************");
