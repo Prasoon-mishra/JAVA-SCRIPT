@@ -15,3 +15,4 @@ for (let i = 2; i <= 5; i++) {
 }
 console.log("The minimum number is : " + min);
 console.log("The maximum number is : " + max);
+
